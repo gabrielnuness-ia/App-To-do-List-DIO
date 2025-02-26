@@ -1,7 +1,8 @@
 # App-simpletodo-DIO
 Aplicativo simples de lista de tarefas com objetivo de criar uma documentação completa e robusta, visando conclusão do Bootcamp Microsoft.
 
-![inside the app] (https://ibb.co/V0s5TdKr)
+![image](https://github.com/user-attachments/assets/bee70cd0-0059-41ae-8ec4-c6ae44b3878d)
+
 
 # Documentação do Aplicativo SimpleTodo
 
