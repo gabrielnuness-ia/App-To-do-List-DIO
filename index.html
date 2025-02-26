@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleTodo - Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SimpleTodo</h1>
+            <p>Organize suas tarefas de forma simples e eficiente</p>
+            <button class="dark-mode-toggle" id="darkModeToggle">🌙</button>
+        </header>
+        
+        <div class="task-form">
+            <input type="text" class="task-input" id="taskInput" placeholder="Adicionar nova tarefa..." autofocus>
+            <button class="add-button" id="addButton">Adicionar</button>
+        </div>
+        
+        <div class="filters">
+            <button class="filter-button active" data-filter="all">Todas</button>
+            <button class="filter-button" data-filter="active">Ativas</button>
+            <button class="filter-button" data-filter="completed">Concluídas</button>
+        </div>
+        
+        <div class="task-list" id="taskList">
+            <!-- Tarefas serão adicionadas aqui via JavaScript -->
+            <div class="empty-state">
+                <h3>Nenhuma tarefa encontrada</h3>
+                <p>Adicione uma nova tarefa para começar</p>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <span id="taskCount">0 tarefas</span>
+            <button id="clearCompleted">Limpar concluídas</button>
+        </div>
+    </div>
+
+    <!-- Carregamento dos scripts JavaScript -->
+    <script src="js/storage.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/taskManager.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
