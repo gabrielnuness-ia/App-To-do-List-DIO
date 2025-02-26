@@ -1,5 +1,5 @@
 # App-simpletodo-DIO
-Aplicativo simples de lista de tarefas com objetivo de criar uma documentação completa e robusta, visando conclusão do Bootcamp Microsoft
+Aplicativo simples de lista de tarefas com objetivo de criar uma documentação completa e robusta, visando conclusão do Bootcamp Microsoft.
 
 # Documentação do Aplicativo SimpleTodo
 
